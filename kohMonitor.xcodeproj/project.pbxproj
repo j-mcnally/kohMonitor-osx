@@ -12,8 +12,79 @@
 		D03BA67516D3E49C00C69705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03BA67416D3E49C00C69705 /* main.m */; };
 		D03BA67916D3E49C00C69705 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D03BA67716D3E49C00C69705 /* Credits.rtf */; };
 		D03BA67C16D3E49C00C69705 /* kohMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03BA67B16D3E49C00C69705 /* kohMonitorAppDelegate.m */; };
-		D03BA67F16D3E49C00C69705 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03BA67D16D3E49C00C69705 /* MainMenu.xib */; };
+		D07A7F2C16D3F1D0003F9C03 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A7F2B16D3F1D0003F9C03 /* WebKit.framework */; };
+		D07A7F3016D3F289003F9C03 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = D07A7F2F16D3F289003F9C03 /* Page.m */; };
+		D07A7F3316D3F2A2003F9C03 /* Headline.m in Sources */ = {isa = PBXBuildFile; fileRef = D07A7F3216D3F2A2003F9C03 /* Headline.m */; };
+		D07A7F4516D3F312003F9C03 /* kohMonitorMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07A7F4416D3F312003F9C03 /* kohMonitorMainViewController.m */; };
+		D07A7F4A16D3F482003F9C03 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A7F4916D3F482003F9C03 /* CoreServices.framework */; };
+		D07A7F4C16D3F488003F9C03 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A7F4B16D3F488003F9C03 /* CoreData.framework */; };
+		D07A7F4E16D3F49E003F9C03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A7F4D16D3F49E003F9C03 /* Security.framework */; };
+		D07A7F5016D3F4A8003F9C03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A7F4F16D3F4A8003F9C03 /* SystemConfiguration.framework */; };
+		D07A7F8B16D3F650003F9C03 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07A7F8416D3F638003F9C03 /* RestKit.framework */; };
+		D07A7FB116D45635003F9C03 /* kohMonitorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07A7FAF16D45635003F9C03 /* kohMonitorWindowController.m */; };
+		D07A7FB416D459C4003F9C03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07A7FB316D459C4003F9C03 /* MainMenu.xib */; };
+		D07A7FB816D45B89003F9C03 /* kohMonitorWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07A7FB616D45B89003F9C03 /* kohMonitorWebViewController.m */; };
+		D07A7FB916D45B89003F9C03 /* kohMonitorWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07A7FB716D45B89003F9C03 /* kohMonitorWebViewController.xib */; };
+		D07A7FBE16D496AE003F9C03 /* RestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D07A7F8416D3F638003F9C03 /* RestKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D07A7F7F16D3F638003F9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		D07A7F8116D3F638003F9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		D07A7F8316D3F638003F9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		D07A7F8516D3F638003F9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		D07A7F8716D3F638003F9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		D07A7F8916D3F63F003F9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160E61145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D07A7FBD16D4969A003F9C03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D07A7FBE16D496AE003F9C03 /* RestKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D03BA66516D3E49C00C69705 /* kohMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kohMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,7 +99,24 @@
 		D03BA67816D3E49C00C69705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D03BA67A16D3E49C00C69705 /* kohMonitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kohMonitorAppDelegate.h; sourceTree = "<group>"; };
 		D03BA67B16D3E49C00C69705 /* kohMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kohMonitorAppDelegate.m; sourceTree = "<group>"; };
-		D03BA67E16D3E49C00C69705 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D07A7F2B16D3F1D0003F9C03 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D07A7F2E16D3F289003F9C03 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		D07A7F2F16D3F289003F9C03 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		D07A7F3116D3F2A2003F9C03 /* Headline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headline.h; sourceTree = "<group>"; };
+		D07A7F3216D3F2A2003F9C03 /* Headline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Headline.m; sourceTree = "<group>"; };
+		D07A7F4316D3F312003F9C03 /* kohMonitorMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kohMonitorMainViewController.h; sourceTree = "<group>"; };
+		D07A7F4416D3F312003F9C03 /* kohMonitorMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kohMonitorMainViewController.m; sourceTree = "<group>"; };
+		D07A7F4916D3F482003F9C03 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D07A7F4B16D3F488003F9C03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		D07A7F4D16D3F49E003F9C03 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D07A7F4F16D3F4A8003F9C03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = "kohMonitor/RestKit-0.10.3/RestKit.xcodeproj"; sourceTree = "<group>"; };
+		D07A7FAE16D45635003F9C03 /* kohMonitorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kohMonitorWindowController.h; sourceTree = "<group>"; };
+		D07A7FAF16D45635003F9C03 /* kohMonitorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kohMonitorWindowController.m; sourceTree = "<group>"; };
+		D07A7FB316D459C4003F9C03 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D07A7FB516D45B89003F9C03 /* kohMonitorWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kohMonitorWebViewController.h; sourceTree = "<group>"; };
+		D07A7FB616D45B89003F9C03 /* kohMonitorWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kohMonitorWebViewController.m; sourceTree = "<group>"; };
+		D07A7FB716D45B89003F9C03 /* kohMonitorWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = kohMonitorWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +124,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07A7F8B16D3F650003F9C03 /* RestKit.framework in Frameworks */,
+				D07A7F5016D3F4A8003F9C03 /* SystemConfiguration.framework in Frameworks */,
+				D07A7F4E16D3F49E003F9C03 /* Security.framework in Frameworks */,
+				D07A7F4C16D3F488003F9C03 /* CoreData.framework in Frameworks */,
+				D07A7F4A16D3F482003F9C03 /* CoreServices.framework in Frameworks */,
+				D07A7F2C16D3F1D0003F9C03 /* WebKit.framework in Frameworks */,
 				D03BA66916D3E49C00C69705 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +140,12 @@
 		D03BA65C16D3E49C00C69705 = {
 			isa = PBXGroup;
 			children = (
+				D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */,
+				D07A7F4F16D3F4A8003F9C03 /* SystemConfiguration.framework */,
+				D07A7F4D16D3F49E003F9C03 /* Security.framework */,
+				D07A7F4B16D3F488003F9C03 /* CoreData.framework */,
+				D07A7F4916D3F482003F9C03 /* CoreServices.framework */,
+				D07A7F2B16D3F1D0003F9C03 /* WebKit.framework */,
 				D03BA66E16D3E49C00C69705 /* kohMonitor */,
 				D03BA66716D3E49C00C69705 /* Frameworks */,
 				D03BA66616D3E49C00C69705 /* Products */,
@@ -82,10 +182,14 @@
 		D03BA66E16D3E49C00C69705 /* kohMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				D07A7FAD16D45614003F9C03 /* Controllers */,
+				D07A7FAC16D45609003F9C03 /* xib */,
+				D07A7F2D16D3F25E003F9C03 /* Models */,
 				D03BA67A16D3E49C00C69705 /* kohMonitorAppDelegate.h */,
 				D03BA67B16D3E49C00C69705 /* kohMonitorAppDelegate.m */,
-				D03BA67D16D3E49C00C69705 /* MainMenu.xib */,
 				D03BA66F16D3E49C00C69705 /* Supporting Files */,
+				D07A7F4316D3F312003F9C03 /* kohMonitorMainViewController.h */,
+				D07A7F4416D3F312003F9C03 /* kohMonitorMainViewController.m */,
 			);
 			path = kohMonitor;
 			sourceTree = "<group>";
@@ -98,8 +202,51 @@
 				D03BA67416D3E49C00C69705 /* main.m */,
 				D03BA67616D3E49C00C69705 /* kohMonitor-Prefix.pch */,
 				D03BA67716D3E49C00C69705 /* Credits.rtf */,
+				D07A7FB316D459C4003F9C03 /* MainMenu.xib */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D07A7F2D16D3F25E003F9C03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D07A7F2E16D3F289003F9C03 /* Page.h */,
+				D07A7F2F16D3F289003F9C03 /* Page.m */,
+				D07A7F3116D3F2A2003F9C03 /* Headline.h */,
+				D07A7F3216D3F2A2003F9C03 /* Headline.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D07A7F7816D3F637003F9C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D07A7F8016D3F638003F9C03 /* libRestKit.a */,
+				D07A7F8216D3F638003F9C03 /* RestKitTests.octest */,
+				D07A7F8416D3F638003F9C03 /* RestKit.framework */,
+				D07A7F8616D3F638003F9C03 /* RestKitFrameworkTests.octest */,
+				D07A7F8816D3F638003F9C03 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07A7FAC16D45609003F9C03 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				D07A7FB716D45B89003F9C03 /* kohMonitorWebViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		D07A7FAD16D45614003F9C03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D07A7FAE16D45635003F9C03 /* kohMonitorWindowController.h */,
+				D07A7FAF16D45635003F9C03 /* kohMonitorWindowController.m */,
+				D07A7FB516D45B89003F9C03 /* kohMonitorWebViewController.h */,
+				D07A7FB616D45B89003F9C03 /* kohMonitorWebViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,10 +259,12 @@
 				D03BA66116D3E49C00C69705 /* Sources */,
 				D03BA66216D3E49C00C69705 /* Frameworks */,
 				D03BA66316D3E49C00C69705 /* Resources */,
+				D07A7FBD16D4969A003F9C03 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D07A7F8A16D3F63F003F9C03 /* PBXTargetDependency */,
 			);
 			name = kohMonitor;
 			productName = kohMonitor;
@@ -142,12 +291,56 @@
 			mainGroup = D03BA65C16D3E49C00C69705;
 			productRefGroup = D03BA66616D3E49C00C69705 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D07A7F7816D3F637003F9C03 /* Products */;
+					ProjectRef = D07A7F7716D3F637003F9C03 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D03BA66416D3E49C00C69705 /* kohMonitor */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D07A7F8016D3F638003F9C03 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = D07A7F7F16D3F638003F9C03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07A7F8216D3F638003F9C03 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = D07A7F8116D3F638003F9C03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07A7F8416D3F638003F9C03 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = D07A7F8316D3F638003F9C03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07A7F8616D3F638003F9C03 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = D07A7F8516D3F638003F9C03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D07A7F8816D3F638003F9C03 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = D07A7F8716D3F638003F9C03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D03BA66316D3E49C00C69705 /* Resources */ = {
@@ -156,7 +349,8 @@
 			files = (
 				D03BA67316D3E49C00C69705 /* InfoPlist.strings in Resources */,
 				D03BA67916D3E49C00C69705 /* Credits.rtf in Resources */,
-				D03BA67F16D3E49C00C69705 /* MainMenu.xib in Resources */,
+				D07A7FB416D459C4003F9C03 /* MainMenu.xib in Resources */,
+				D07A7FB916D45B89003F9C03 /* kohMonitorWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +363,23 @@
 			files = (
 				D03BA67516D3E49C00C69705 /* main.m in Sources */,
 				D03BA67C16D3E49C00C69705 /* kohMonitorAppDelegate.m in Sources */,
+				D07A7F3016D3F289003F9C03 /* Page.m in Sources */,
+				D07A7F3316D3F2A2003F9C03 /* Headline.m in Sources */,
+				D07A7F4516D3F312003F9C03 /* kohMonitorMainViewController.m in Sources */,
+				D07A7FB116D45635003F9C03 /* kohMonitorWindowController.m in Sources */,
+				D07A7FB816D45B89003F9C03 /* kohMonitorWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D07A7F8A16D3F63F003F9C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKitFramework;
+			targetProxy = D07A7F8916D3F63F003F9C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D03BA67116D3E49C00C69705 /* InfoPlist.strings */ = {
@@ -189,14 +396,6 @@
 				D03BA67816D3E49C00C69705 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		D03BA67D16D3E49C00C69705 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D03BA67E16D3E49C00C69705 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,11 +463,16 @@
 		D03BA68316D3E49C00C69705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kohMonitor/kohMonitor-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "kohMonitor/kohMonitor-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,11 +480,16 @@
 		D03BA68416D3E49C00C69705 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kohMonitor/kohMonitor-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "kohMonitor/kohMonitor-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -304,6 +513,7 @@
 				D03BA68416D3E49C00C69705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
